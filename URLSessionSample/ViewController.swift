@@ -28,7 +28,7 @@ class ViewController: UIViewController {
                 do {
                     //for single entity
                     //let result = try decoder.decode([EmployeeResponse].self, from: responseData!)
-
+                    
                     //for json with collection
                     let result = try decoder.decode([EmployeeResponse].self, from: responseData!)
 
